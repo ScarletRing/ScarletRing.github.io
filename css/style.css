@@ -356,15 +356,8 @@ body{
     margin-left:11%;
     margin-top: 5%;
     float:left;
-    /* margin: 2rem 0;
-    opacity: 0;
-    transform: translateY(20px); */
 }
-/* .ZoneC.element-show{
-    opacity: 1;
-    transition: all 1.5s;
-    transform: translateY(0%);
-} */
+
 .pic{
 
     width: 45%;
@@ -481,7 +474,7 @@ color: #282626;
     
     }
     .BigTextC{
-        width: 70%;
+        width: 85%;
         height: 150px;
         text-align: left;
         margin-left: 55px;
@@ -565,19 +558,23 @@ color: #282626;
     
     }
     .BigTextC{
-        width: 70%;
+        width: 85%;
         height: 150px;
         text-align: left;
         margin-left: 55px;
-        font-size: 120px;
+        font-size: 90px;
         color: #F4AC3F;
         font-family: 'Constantia', sans-serif;
     
     
     }
-    
+    /* #firstArrow{
+        margin-top:-65px;
+    }
+    .lit{
+        height: 90%;
+    } */
     #buttonDownloader{
-        margin-top: 50%;
         animation: none;
         
     }
