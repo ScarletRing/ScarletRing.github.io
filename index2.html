@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <!DOCTYPE html>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <link href="https://fonts.googleapis.com/css?family=Constantia&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/anim.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Scarlet Ring</title>
+    </head>
+
+    <div id="AlwaysFade">
+        <div id="whiteSpace">
+            <div id="close" href="index.html">
+                <a href="index.html">
+                <img href="index.html" id="closeImg" onmouseleave="document.getElementById('closeImg').src = 'img/close.svg';" onmouseover="document.getElementById('closeImg').src = 'img/close_hover.svg';" src="img/close.svg" alt="close">
+                </a>
+            </div>
+            <img id="frame" src="img/frame.svg" alt="frame">
+            <div id="content">
+                <div id="text">
+                    <div class="downloadLinkClass" id="link1">
+                        <img class="downloadPic" id="windows" src="img/windows.svg" alt="windows">
+                    </div>
+                    <div class="downloadLinkClass" id="link2">
+                        <img class="downloadPic" id="mac" src="img/mac.svg" alt="mac">
+                    </div>
+                    <div class="downloadLinkClass" id="link3">
+                        <img class="downloadPic" id="linux" src="img/linux.svg" alt="linux">
+                    </div>
+                    <div class="downloadLinkClass" id="link4">
+                        <img class="downloadPic" id="android" src="img/android.svg" alt="android">
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <div id="head">
+        <a href="index.html" >
+            <img id="logo" src="img/logo.svg" alt="logo">
+        </a>
+        
+        <a id="abt" class="headLink" href="about.html">
+                <p  class="headText">Об игре</p>
+        </a>
+        <a  class="headLink" id="creat" href="creators.html" >
+                <p  class="headText">Создатели</p>
+        </a>
+        <a  class="headLink" href="index2.html">   
+                <p  class="headText">Скачать</p>
+        </a>
+    </div>
+
+
+
+    <div id="body">
+            <div class = "wave wave1"></div>
+            <div class = "wave wave2"></div>
+            <div class = "wave wave3"></div>
+            <div class = "wave wave4"></div>
+    
+            <div id="CenterZone">
+                <div style="animation:none;" id="leftText">
+                <div id="bigTextName">
+                    Scarlet Ring 
+                </div>
+                <div id="smallText">
+                    Стань детективом и <b>раскрой дело</b>
+                </div>
+                <div onclick="download()" id="buttonDownloader">
+                    Скачать
+                </div>
+                </div>
+                <div style="animation:none;" id="rightText">
+                <img id="logoBig" src="img/logo.png" alt="logo">
+                </div>
+            </div>
+    </section>
+    </div>
+    <footer>
+
+    </footer>
+</html>
+
+
+
+<style>
+
+*{
+    cursor: url('cursor.png'), pointer;
+}   
+#buttonDownloader:hover{
+    cursor: url('cursor_grab.png'), pointer;
+    background-color: #F4AC3F;
+    color: #282626;
+    border: 5px solid #F4AC3F;
+    
+}
+#closeImg:hover{
+    cursor: url('cursor_grab.png'), pointer;
+}
+/* .headLink:hover{
+    cursor: url('cursor_grab.png'), pointer;
+} */
+.headText:hover{
+    cursor: url('cursor_grab.png'), pointer;
+}
+#Logo{
+    cursor: url('cursor_grab.png'), pointer;
+}
+a{
+    cursor: url('cursor_grab.png'), pointer;
+}
+</style>
+
+<script>
+function download(){
+    document.getElementById('fade').style.display = 'block';
+}
+</script>
