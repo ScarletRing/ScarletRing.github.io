@@ -466,7 +466,7 @@ color: #282626;
 } */
 
 
-@media (max-width:800px) {
+@media (min-width:500px) and(max-width:800px) {
 
     .BigText{
         width: 70%;
@@ -484,7 +484,7 @@ color: #282626;
         width: 80%;
         height: 150px;
         text-align: left;
-        margin-left: 45px;
+        margin-left: 100px;
         font-size: 120px;
         color: #F4AC3F;
         font-family: 'Constantia', sans-serif;
