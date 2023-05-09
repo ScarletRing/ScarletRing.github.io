@@ -454,7 +454,7 @@ color: #282626;
 } */
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-device-aspect-ratio: 9/16) {
     
     #buttonDownloader{
         
