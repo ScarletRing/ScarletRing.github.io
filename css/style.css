@@ -486,5 +486,30 @@ color: #282626;
         justify-content: center;
         align-items: center;
     }
-    
+    #text{
+        grid-template-areas: none;
+        grid-template-columns: none;
+        
+    }
+    #link1{
+        margin-top:2%;
+        margin-left: 0%;
+
+    }
+    #link2{
+        margin-top:2%;
+        margin-left: 0%;
+
+    }
+    #link3{
+        margin-top:2%;
+        margin-left: 0%;
+
+    }
+    #link4{
+        margin-top:2%;
+        margin-left: 0%;
+
+    }
+
 }
