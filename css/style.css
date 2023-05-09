@@ -466,13 +466,13 @@ color: #282626;
 } */
 
 
-@media (min-width:500px) and(max-width:800px) {
+@media only screen and (max-device-aspect-ratio: 9/16) {
 
     .BigText{
         width: 70%;
-        /* height: 150px; */
+        height: 150px;
         text-align: left;
-        margin-left: 10px;
+        margin-left: 20px;
         font-size: 120px;
         color: #F4AC3F;
         font-family: 'Constantia', sans-serif;
@@ -481,10 +481,10 @@ color: #282626;
     
     }
     .BigTextC{
-        width: 80%;
-        /* height: 150px; */
+        width: 70%;
+        height: 150px;
         text-align: left;
-        margin-left: 45px;
+        margin-left: 55px;
         font-size: 120px;
         color: #F4AC3F;
         font-family: 'Constantia', sans-serif;
@@ -551,7 +551,7 @@ color: #282626;
     }
 
 }
- /* @media (min-width:801px) and (max-width: 1100px) {
+ @media only screen and (max-device-aspect-ratio: 4/3)  {
 
     .BigText{
         width: 70%;
@@ -587,4 +587,4 @@ color: #282626;
     .wave{
         display:none;
     }
-} */
+}
