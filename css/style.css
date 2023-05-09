@@ -321,6 +321,18 @@ body{
     /* animation:fadeInLeft1 1s ease-in-out; */
 
 }
+.BigTextC{
+    width: 70%;
+    height: 55px;
+    text-align: left;
+    margin-left: 15px;
+    font-size: 120px;
+    color: #F4AC3F;
+    font-family: 'Constantia', sans-serif;
+
+    /* animation:fadeInLeft1 1s ease-in-out; */
+
+}
 #arrowDiv{
     width: 100%;
     height: 50px;
