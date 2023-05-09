@@ -454,7 +454,7 @@ color: #282626;
 } */
 
 
-@media only screen and (min-width: 480px) {
+@media only screen and (max-width: 480px) {
     
     #buttonDownloader{
         
@@ -462,5 +462,16 @@ color: #282626;
         color:red;
         
     }
-    
+
+    #close{
+        width:50px;
+        height:50px;
+        position: absolute;
+        top: -50%;
+        right: 0%;
+        z-index: 112;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
