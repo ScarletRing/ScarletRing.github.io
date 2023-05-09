@@ -466,7 +466,7 @@ color: #282626;
 } */
 
 
-@media only screen and (max-device-aspect-ratio: 9/16) {
+@media only screen and (device-aspect-ratio: 9/16) {
 
     .BigText{
         width: 70%;
@@ -551,7 +551,7 @@ color: #282626;
     }
 
 }
-@media only screen and (max-device-aspect-ratio: 4/3) {
+ @media only screen and (device-aspect-ratio: 4/3) {
 
     .BigText{
         width: 70%;
@@ -563,7 +563,6 @@ color: #282626;
         color: #F4AC3F;
         font-family: 'Constantia', sans-serif;
     
-        /* animation:fadeInLeft1 1s ease-in-out; */
     
     }
     .BigTextC{
@@ -576,7 +575,6 @@ color: #282626;
         color: #F4AC3F;
         font-family: 'Constantia', sans-serif;
     
-        /* animation:fadeInLeft1 1s ease-in-out; */
     
     }
     
@@ -589,5 +587,3 @@ color: #282626;
     .wave{
         display:none;
     }
-  
-}
