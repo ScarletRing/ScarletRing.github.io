@@ -461,6 +461,7 @@ color: #282626;
         position:absolute;
         margin-top: 50%;
         color:red;
+        animation: none;
         
     }
     
