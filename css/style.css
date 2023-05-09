@@ -470,6 +470,7 @@ color: #282626;
     }
     #frame{
         transform: rotate3d(0, 0, 1, 90deg);
+        width: 100%;
     }
     #close{
         width:50px;
@@ -482,11 +483,5 @@ color: #282626;
         justify-content: center;
         align-items: center;
     }
-    #logoBig{
-        z-index: 12;
-        width: 150%;
-        margin-left: 10px;
-        margin-right: 10px;
-        float:right;
-    }
+    
 }
