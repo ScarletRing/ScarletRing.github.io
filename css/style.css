@@ -120,7 +120,7 @@ p{
     background: linear-gradient(-135deg,rgb(40,38,38) 25%,rgb(0, 0, 0) 100%);
 }
 #logo{
-    margin-top: 20%;
+    margin-top: 15%;
     margin-left: 50px;
     margin-right: 50px;
     z-index: 12;
@@ -191,14 +191,15 @@ body{
     animation:fadeInLeft 1s ease-in-out;
 }
 #logoBig{
+    display:none;
+}
+#logo_bg{
+    
     z-index: 12;
     width: 100%;
     margin-left: 10px;
     margin-right: 10px;
     float:right;
-}
-#logo_bg{
-    display: none; 
 }
 #bigTextName{
     width:100%;
