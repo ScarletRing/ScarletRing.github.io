@@ -192,11 +192,10 @@ body{
 }
 #logoBig{
     z-index: 12;
-    width: 100%;
+    width: 120%;
     margin-left: 10px;
     margin-right: 10px;
     float:right;
-    display:none;
 }
 #logo_bg{
     
