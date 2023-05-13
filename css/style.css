@@ -476,7 +476,7 @@ color: #282626;
 @media only screen and (max-device-aspect-ratio: 9/16) {
     .headLink{
        
-        margin-left:30%;
+        margin-left:3%;
         float:left;
         text-decoration: overline;
         
