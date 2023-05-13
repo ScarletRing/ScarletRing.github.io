@@ -116,7 +116,7 @@ p{
     text-transform: uppercase;
     letter-spacing: 2px;
     box-shadow: 0 0 10px rgba(0,0,0,1);
-    background: linear-gradient(-135deg,rgb(40,38,38) 25%,rgb(0, 0, 0) 100%)
+    background: linear-gradient(-135deg,rgb(40,38,38) 25%,rgb(0, 0, 0) 100%);
 }
 #logo{
     margin-top: 25%;
@@ -475,8 +475,19 @@ color: #282626;
 @media only screen and (max-device-aspect-ratio: 9/16) {
 
     #head{  
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        color: #ffffff;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 2px;
         height: 12%;
-        font-size: 15px; 
+        font-size: 35px; 
     }
 
     #logo{
