@@ -551,9 +551,30 @@ color: #282626;
         text-decoration: overline;
         
         }
+    #head{
+
+    background-color: #282626;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: left;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'Constantia', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    background: linear-gradient(-135deg,rgb(40,38,38) 25%,rgb(0, 0, 0) 100%);
+    }    
 
 
-    #head{  
+    /* #head{  
         position: fixed;
         top: 0;
         left: 0;
@@ -567,7 +588,7 @@ color: #282626;
         letter-spacing: 2px;
         height: 12%;
         font-size: 35px; 
-    }
+    } */
 
     #logo{
         width: 100%;
