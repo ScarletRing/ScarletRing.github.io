@@ -547,10 +547,10 @@ color: #282626;
 
     .BigText{
         width: 70%;
-        height: 300px;
+        height: 150px;
         text-align: left;
         margin-left: 20px;
-        font-size: 300px;
+        font-size: 120px;
         color: #F4AC3F;
         font-family: 'Constantia', sans-serif;
     
@@ -629,6 +629,14 @@ color: #282626;
 
 }
  @media only screen and (min-device-aspect-ratio: 0.61) and (max-device-aspect-ratio: 1.4) {
+    #bigTextName{
+        width:100%;
+        z-index: 12;
+        font-size: 200px;
+        margin-top: 0px;
+        float:left;
+        color: #F4AC3F;
+    }
 
     .BigText{
         width: 100%;
