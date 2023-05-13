@@ -515,6 +515,9 @@ color: #282626;
     #leftText{
         height: 100%;
         width: 95%;
+        justify-content: center;
+        align-items: center;
+
     }
 
     #rightText{
