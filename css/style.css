@@ -191,15 +191,16 @@ body{
     animation:fadeInLeft 1s ease-in-out;
 }
 #logoBig{
-    display:none;
-}
-#logo_bg{
-    
     z-index: 12;
     width: 100%;
     margin-left: 10px;
     margin-right: 10px;
     float:right;
+    display:none;
+}
+#logo_bg{
+    
+    display:none;
 }
 #bigTextName{
     width:100%;
