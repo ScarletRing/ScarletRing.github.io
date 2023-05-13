@@ -481,7 +481,7 @@ color: #282626;
         right: 0;
         z-index: 10;
         display: flex;
-        justify-content: center;
+        justify-content: left;
         color: #ffffff;
         font-weight: 400;
         text-transform: uppercase;
