@@ -474,6 +474,12 @@ color: #282626;
 } */
 /* @media only screen and (min-device-aspect-ratio: 0.1) and (max-device-aspect-ratio: 0.6) { */
 @media only screen and (max-device-aspect-ratio: 9/16) {
+    #CenterZone{
+        margin-top: -30%;
+        z-index: 12;
+        height: 80%;
+        width: 100%;
+    }
     .headLink{
        
         margin-left:10%;
