@@ -490,6 +490,7 @@ color: #282626;
         float: none;
     }
     .TextZone{
+        margin-left: 5%;
         width: 90%;
         height: 20%;
         text-align: left;
