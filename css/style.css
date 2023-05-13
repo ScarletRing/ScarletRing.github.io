@@ -14,7 +14,7 @@ a{
 }
 p{
     text-decoration: none !important;
-    width: 100px;
+    width: auto;
 }
 #link1{
     margin-left: -1%;
