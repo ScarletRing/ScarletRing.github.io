@@ -474,6 +474,20 @@ color: #282626;
 } */
 /* @media only screen and (min-device-aspect-ratio: 0.1) and (max-device-aspect-ratio: 0.6) { */
 @media only screen and (max-device-aspect-ratio: 9/16) {
+    .TextZone{
+        width: 90%;
+        height: 100%;
+        text-align: left;
+        font-size: 50px;
+        font-family: 'Constantia', sans-serif;
+    }
+    .TextZoneC{
+        width: 50%;
+        /* height: 100%; */
+        text-align: left;
+        font-size: 25px;
+        font-family: 'Constantia', sans-serif;
+    }
     #CenterZone{
         margin-top: 10%;
         z-index: 12;
