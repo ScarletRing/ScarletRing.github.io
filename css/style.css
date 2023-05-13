@@ -474,6 +474,11 @@ color: #282626;
 } */
 /* @media only screen and (min-device-aspect-ratio: 0.1) and (max-device-aspect-ratio: 0.6) { */
 @media only screen and (max-device-aspect-ratio: 9/16) {
+    .topParagC{
+        margin-top: 15%;
+        font-size:70px;
+        font-weight: bold;
+    }
     .paragClass{
         width:112%;
     
@@ -509,7 +514,7 @@ color: #282626;
         width: 90%;
         height: 20%;
         text-align: left;
-        font-size: 70px;
+        font-size: 50px;
         font-family: 'Constantia', sans-serif;
     }
     .TextZoneC{
