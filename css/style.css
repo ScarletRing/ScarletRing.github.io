@@ -427,7 +427,6 @@ body{
 
 #abt{
 margin-left: 0px;
-margin-right: -5%;
 }
 .headLink{
 z-index: 12;
@@ -483,6 +482,7 @@ color: #282626;
 @media only screen and (max-device-aspect-ratio: 9/16) {
     #abt{
         margin-left: -5%;
+        margin-right: 5%;
         }
     .headText{
         border-bottom: 2px solid #ffffff;
