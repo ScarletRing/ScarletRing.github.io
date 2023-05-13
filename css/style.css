@@ -423,7 +423,7 @@ body{
 }
 
 #abt{
-margin-left: 20px;
+margin-left: 10px;
 }
 .headLink{
 z-index: 12;
@@ -477,6 +477,12 @@ color: #282626;
 } */
 /* @media only screen and (min-device-aspect-ratio: 0.1) and (max-device-aspect-ratio: 0.6) { */
 @media only screen and (max-device-aspect-ratio: 9/16) {
+    .headText{
+        border-bottom: 2px solid #ffffff;
+        text-decoration: none;
+        display: inline-block;
+        vertical-align: top;
+        }
     .topParagC{
         margin-top: 15%;
         font-size:70px;
