@@ -445,7 +445,7 @@ vertical-align: top;
 
 
 #creat{
-width: 170px;
+width: auto;
 text-decoration: none;
 }
 .headLink:hover{
