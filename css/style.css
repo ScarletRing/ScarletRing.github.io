@@ -475,6 +475,7 @@ color: #282626;
 /* @media only screen and (min-device-aspect-ratio: 0.1) and (max-device-aspect-ratio: 0.6) { */
 @media only screen and (max-device-aspect-ratio: 9/16) {
     .Zone{
+        width: 80;
         height: auto;
     }
     .picRight{
@@ -490,7 +491,6 @@ color: #282626;
         float: none;
     }
     .TextZone{
-        margin-left: 5%;
         width: 90%;
         height: 20%;
         text-align: left;
