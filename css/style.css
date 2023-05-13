@@ -517,7 +517,7 @@ color: #282626;
         width: 95%;
         justify-content: center;
         align-items: center;
-        float: none;
+        float: center;
 
     }
 
