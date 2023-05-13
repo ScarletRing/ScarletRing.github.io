@@ -423,7 +423,7 @@ body{
 }
 
 #abt{
-margin-left: 10px;
+margin-left: 0px;
 }
 .headLink{
 z-index: 12;
@@ -478,7 +478,7 @@ color: #282626;
 /* @media only screen and (min-device-aspect-ratio: 0.1) and (max-device-aspect-ratio: 0.6) { */
 @media only screen and (max-device-aspect-ratio: 9/16) {
     #abt{
-        margin-left: 0px;
+        margin-left: -5%;
         }
     .headText{
         border-bottom: 2px solid #ffffff;
@@ -593,7 +593,7 @@ color: #282626;
     #logo{
         width: 100%;
         margin-top: 10%;
-        margin-left: -15%;
+        margin-left: -25%;
         height: 60%;
         float:left;  
     }
