@@ -1,12 +1,12 @@
-/* /* img { */
-    /* -webkit-user-select: none; Safari */
-    /* -moz-user-select: none; Firefox */
-    /* -ms-user-select: none; IE10+/Edge */
-    /* user-select: none; Standard syntax */
- /* }  */
- img {
+img {
+    -webkit-user-select: none; Safari;
+    -moz-user-select: none; Firefox;
+    -ms-user-select: none; IE10+/Edge;
+    user-select: none; Standard syntax;
+} 
+ /* img {
     pointer-events: none;
-  }
+  } */
 
 a{
     color:white;
@@ -628,7 +628,7 @@ color: #282626;
     }
 
     #buttonDownloader{
-        color: #ff0000;
+        /* color: #ff0000; */
         width: 83%;
         display: flex;
         justify-content: center;
