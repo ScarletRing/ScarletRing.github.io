@@ -520,7 +520,7 @@ color: #282626;
 
     #smallText{
         width:90%;
-        font-size: 30px;
+        font-size: 70px;
         margin-top: 25px;
 
     }
@@ -541,7 +541,7 @@ color: #282626;
 
     .BigText{
         width: 70%;
-        height: 150px;
+        height: 200px;
         text-align: left;
         margin-left: 20px;
         font-size: 120px;
