@@ -626,9 +626,6 @@ color: #282626;
         margin-left: 0%;
 
     }
-
-}
- @media only screen and (min-device-aspect-ratio: 0.61) and (max-device-aspect-ratio: 1.4) {
     #bigTextName{
         width:100%;
         z-index: 12;
@@ -637,6 +634,10 @@ color: #282626;
         float:left;
         color: #F4AC3F;
     }
+
+}
+ @media only screen and (min-device-aspect-ratio: 0.61) and (max-device-aspect-ratio: 1.4) {
+    
 
     .BigText{
         width: 100%;
