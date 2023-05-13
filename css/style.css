@@ -474,6 +474,12 @@ color: #282626;
 } */
 /* @media only screen and (min-device-aspect-ratio: 0.1) and (max-device-aspect-ratio: 0.6) { */
 @media only screen and (max-device-aspect-ratio: 9/16) {
+    .picRight{
+        float:none;
+    }
+    .picLeft{
+        float:none;
+    }
     .TextZoneLeft{
         float: none;
     }
@@ -664,6 +670,16 @@ color: #282626;
 
 }
  @media only screen and (min-device-aspect-ratio: 0.61) and (max-device-aspect-ratio: 1.4) {
+    .pic{
+
+        width: 100%;
+       
+    }
+    .pic1{
+    
+        width: 33%;
+       
+    }
     
 
     .BigText{
