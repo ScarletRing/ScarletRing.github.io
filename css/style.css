@@ -586,4 +586,13 @@ color: #282626;
     .wave{
         display:none;
     }
+
+    #head{
+
+        
+        height: 12%;
+        font-size: 19px;
+       
+    }
 }
+
