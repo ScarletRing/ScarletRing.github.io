@@ -196,6 +196,9 @@ body{
     margin-right: 10px;
     float:right;
 }
+#logo_bg{
+    display: none; 
+}
 #bigTextName{
     width:100%;
     z-index: 12;
@@ -578,6 +581,13 @@ color: #282626;
     }
     #logoBig{
        display: none
+    }
+    #logo_bg{
+        z-index: 10;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        float:right;
     }
 
     #smallText{
