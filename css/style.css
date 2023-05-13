@@ -583,7 +583,7 @@ color: #282626;
        display: none
     }
     #logo_bg{
-        z-index: 12;
+        z-index: 20;
         width: 100%;
         margin-left: 10px;
         margin-right: 10px;
