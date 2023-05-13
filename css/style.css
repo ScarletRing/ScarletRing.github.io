@@ -120,7 +120,7 @@ p{
     background: linear-gradient(-135deg,rgb(40,38,38) 25%,rgb(0, 0, 0) 100%);
 }
 #logo{
-    margin-top: 20%;
+    margin-top: 2%;
     margin-left: 50px;
     margin-right: 50px;
     z-index: 12;
@@ -203,7 +203,7 @@ body{
 #bigTextName{
     width:100%;
     z-index: 12;
-    font-size: 120px;
+    font-size: 100px;
     margin-top: 0px;
     float:left;
     color: #F4AC3F;
@@ -729,7 +729,7 @@ color: #282626;
     #bigTextName{
         width:100%;
         z-index: 12;
-        font-size: 150px;
+        font-size: 180px;
         margin-top: 0px;
         float:left;
         color: #F4AC3F;
