@@ -583,7 +583,7 @@ color: #282626;
        display: none
     }
     #logo_bg{
-        display: flex;
+        display: block;
         z-index: 10;
         width: 100%;
         float:right;
