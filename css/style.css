@@ -193,6 +193,7 @@ body{
 #logoBig{
     z-index: 12;
     width: 130%;
+    margin-top: -50px;
     margin-left: -70px;
     /* margin-right: 200px; */
     float:right;
