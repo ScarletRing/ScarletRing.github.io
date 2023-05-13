@@ -478,6 +478,11 @@ color: #282626;
         width: 80%;
         height: auto;
     }
+    .ZoneC{
+        width: 80%;
+        height: auto;
+        margin-left: 0;
+    }
     .picRight{
         float:none;
     }
