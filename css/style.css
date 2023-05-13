@@ -501,14 +501,14 @@ color: #282626;
         width: 90%;
         height: 20%;
         text-align: left;
-        font-size: 50px;
+        font-size: 70px;
         font-family: 'Constantia', sans-serif;
     }
     .TextZoneC{
         width: 50%;
         /* height: 100%; */
         text-align: left;
-        font-size: 25px;
+        font-size: 50px;
         font-family: 'Constantia', sans-serif;
     }
     #CenterZone{
