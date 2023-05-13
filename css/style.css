@@ -549,21 +549,21 @@ color: #282626;
         margin-left:50px;
         float:left;
         text-decoration: overline;
-        font-size: 35px;
+        font-size: 15px;
         }
     #head{
 
     background-color: #282626;
     height: 12%;
     width: 100%;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     z-index: 10;
     display: flex;
     justify-content: left;
-    /* font-size: 15px; */
+    font-size: 35px;
     color: #ffffff;
     font-family: 'Constantia', sans-serif;
     font-weight: 300;
