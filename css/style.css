@@ -484,9 +484,11 @@ color: #282626;
         margin-left: 0;
     }
     .picRight{
+        margin-top: 5%;
         float:none;
     }
     .picLeft{
+        margin-top: 5%;
         float:none;
     }
     .TextZoneLeft{
