@@ -193,8 +193,8 @@ body{
 #logoBig{
     z-index: 12;
     width: 140%;
-    margin-left: 10px;
-    margin-right: 200px;
+    margin-left: -70px;
+    /* margin-right: 200px; */
     float:right;
 }
 #logo_bg{
