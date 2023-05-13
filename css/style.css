@@ -639,6 +639,7 @@ color: #282626;
     }
     
     #buttonDownloader{
+        margin-left:-5%;
         margin-top: 50%;
         animation: none;
         
