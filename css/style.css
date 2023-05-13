@@ -474,6 +474,12 @@ color: #282626;
 /* @media only screen and (min-device-aspect-ratio: 0.1) and (max-device-aspect-ratio: 0.6) { */
 @media only screen and (max-device-aspect-ratio: 9/16) {
 
+    p{
+        text-decoration: none !important;
+        margin-left: 2%;
+        height: 93px;
+    }
+
     #head{  
         position: fixed;
         top: 0;
