@@ -667,9 +667,6 @@ color: #282626;
         float:left;
         color: #F4AC3F;
     }
-
-}
- @media only screen and (min-device-aspect-ratio: 0.61) and (max-device-aspect-ratio: 1.4) {
     .pic{
 
         width: 100%;
@@ -680,6 +677,9 @@ color: #282626;
         width: 33%;
        
     }
+
+}
+ @media only screen and (min-device-aspect-ratio: 0.61) and (max-device-aspect-ratio: 1.4) {
     
 
     .BigText{
