@@ -706,7 +706,16 @@ color: #282626;
         top:35%;
         left:0%;
     } */
-    .downloadLinkClass{
+    #content{
+        width:100%;
+        position: absolute;
+        z-index: 111;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    /* .downloadLinkClass{
         width: 140%;
         height: 100%;
         display: flex;
@@ -714,7 +723,7 @@ color: #282626;
         align-items: center;
         float:none;
         margin:auto;
-    }
+    } */
 
     #frame{
         transform: rotate3d(0, 0, 1, 90deg);
