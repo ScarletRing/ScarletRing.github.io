@@ -723,6 +723,7 @@ color: #282626;
         align-items: center;
         float:none;
         margin:auto;
+        margin-top: 5%;
     }
 
     #frame{
@@ -754,22 +755,22 @@ color: #282626;
         flex-direction: column;
     }
     #link1{
-        margin-top:unset;
-        margin-left: unset;
+        margin:unset;
+        margin-top:2%;
+        
 
     }
     #link2{
-        margin-top:unset;
-        margin-left: unset;
-
+        margin:unset;
+        margin-top:2%;
     }
     #link3{
-        margin-top:unset;
-        margin-left: unset;
+        margin:unset;
+        margin-top:2%;
     }
     #link4{
-        margin-top:unset;
-        margin-left: unset;
+        margin:unset;
+        margin-top:2%;
     }
     #bigTextName{
         width:100%;
