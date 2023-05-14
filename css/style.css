@@ -693,7 +693,7 @@ color: #282626;
     .wave{
         display:none;
     }
-    #frame{
+    /* #frame{
         transform: rotate3d(0, 0, 1, 90deg);
         width:auto;
         height:90%;
@@ -701,6 +701,17 @@ color: #282626;
     #whiteSpace{
         height:auto;
         width:auto;
+        top:35%;
+        left:0%;
+    } */
+    #frame{
+        transform: rotate3d(0, 0, 1, 90deg);
+        width:auto;
+        height:100%;
+    }
+    #whiteSpace{
+        height:auto;
+        width:100%;
         top:35%;
         left:0%;
     }
