@@ -750,27 +750,26 @@ color: #282626;
     #text{
         grid-template-areas: none;
         grid-template-columns: none;
-        
+        display: flex;
+        flex-direction: column;
     }
     #link1{
-        margin-top:2%;
-        margin-left: -45%;
+        margin-top:unset;
+        margin-left: unset;
 
     }
     #link2{
-        margin-top:2%;
-        margin-left: -45%;
+        margin-top:unset;
+        margin-left: unset;
 
     }
     #link3{
-        margin-top:2%;
-        margin-left: -45%;
-
+        margin-top:unset;
+        margin-left: unset;
     }
     #link4{
-        margin-top:2%;
-        margin-left: -45%;
-
+        margin-top:unset;
+        margin-left: unset;
     }
     #bigTextName{
         width:100%;
