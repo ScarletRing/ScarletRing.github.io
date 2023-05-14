@@ -616,7 +616,7 @@ color: #282626;
     }
 
     #rightText{
-        display: none
+        display: block
     }
     #logoBig{
        display: none
