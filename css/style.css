@@ -710,7 +710,7 @@ color: #282626;
         height:70%;
     }
     #whiteSpace{
-        height:auto;
+        /* height:auto; */
         width:100%;
         top:35%;
         left:0%;
