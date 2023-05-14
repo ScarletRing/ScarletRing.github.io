@@ -712,8 +712,8 @@ color: #282626;
     #whiteSpace{
         height:auto;
         width:100%;
-        /* top:35%;
-        left:0%; */
+        top:35%;
+        left:0%;
     }
     #close{
         width:50px;
