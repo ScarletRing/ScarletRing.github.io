@@ -484,6 +484,7 @@ color: #282626;
     .downloadLinkClass{
         width: 120%;
         height: 100%;
+        margin-left: 0%;
     }
 
     #minilogo{
