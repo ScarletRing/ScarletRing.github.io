@@ -694,7 +694,7 @@ color: #282626;
     }
     #frame{
         transform: rotate3d(0, 0, 1, 90deg);
-        width:120%;
+        /* width:120%; */
         height:120%;
     }
     #whiteSpace{
