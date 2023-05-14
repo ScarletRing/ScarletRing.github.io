@@ -482,7 +482,7 @@ color: #282626;
 @media only screen and (max-device-aspect-ratio: 9/16) {
 
     .downloadLinkClass{
-        width: 120%;
+        width: 130%;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -718,7 +718,7 @@ color: #282626;
     #frame{
         transform: rotate3d(0, 0, 1, 90deg);
         width:auto;
-        height:60%;
+        height:70%;
     }
     #whiteSpace{
         /* height:auto; */
@@ -731,7 +731,7 @@ color: #282626;
         height:60px;
         /* position: absolute; */
         top: -30%;
-        right: 10%;
+        right: 5%;
         z-index: 112;
         display: flex;
         justify-content: center;
@@ -744,22 +744,22 @@ color: #282626;
     }
     #link1{
         margin-top:2%;
-        margin-left: -10%;
+        margin-left: -15%;
 
     }
     #link2{
         margin-top:2%;
-        margin-left: -10%;
+        margin-left: -15%;
 
     }
     #link3{
         margin-top:2%;
-        margin-left: -10%;
+        margin-left: -15%;
 
     }
     #link4{
         margin-top:2%;
-        margin-left: -10%;
+        margin-left: -15%;
 
     }
     #bigTextName{
