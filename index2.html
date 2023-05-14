@@ -1,36 +1,45 @@
 <html lang="ru">
     <head>
         <!DOCTYPE html>
+        <!-- <Cache-Control: max-age=31536000> </Cache-Control:> -->
         <meta charset="utf-8">
-        <title>Home</title>
-        <link href="https://fonts.googleapis.com/css?family=Constantia&display=swap" rel="stylesheet">
+        <title>ScarletRing</title>
+        <!-- <link href="https://fonts.googleapis.com/css?family=Constantia&display=swap" rel="stylesheet"> -->
         <link rel="stylesheet" href="css/anim.css">
         <link rel="stylesheet" href="css/style.css">
         <title>Scarlet Ring</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#282626">
+        <meta name="msapplication-TileColor" content="#282626">
+        <meta name="theme-color" content="#ffffff">
     </head>
 
-    <div id="AlwaysFade">
+    <div id="fade">
         <div id="whiteSpace">
-            <div id="close" href="index.html">
-                <a href="index.html">
-                <img href="index.html" id="closeImg" onmouseleave="document.getElementById('closeImg').src = 'img/close.svg';" onmouseover="document.getElementById('closeImg').src = 'img/close_hover.svg';" src="img/close.svg" alt="close">
-                </a>
+            <div id="close" onclick="document.getElementById('fade').style.display = 'none';">
+                <img id="closeImg" onmouseleave="document.getElementById('closeImg').src = 'img/close.svg';" onmouseover="document.getElementById('closeImg').src = 'img/close_hover.svg';" src="img/close.svg" alt="close">
             </div>
             <img id="frame" src="img/frame.svg" alt="frame">
             <div id="content">
                 <div id="text">
-                    <div class="downloadLinkClass" id="link1">
+                    <!-- <a href="https://campuscvut-my.sharepoint.com/:u:/g/personal/borodkir_cvut_cz/ETVnYVGZ-f1NhECoaH4k1HgBJriie8w3ry0A7ovF3A_3VQ" class="downloadLinkClass" id="link1">
+                        <img  class="downloadPic" id="windows" src="img/windows.svg" alt="windows"> -->
+                    <!-- </a> -->
+                    <a class="downloadLinkClass" id="link1">
                         <img class="downloadPic" id="windows" src="img/windows.svg" alt="windows">
-                    </div>
-                    <div class="downloadLinkClass" id="link2">
+                    </a>
+                   <a class="downloadLinkClass" id="link2">
                         <img class="downloadPic" id="mac" src="img/mac.svg" alt="mac">
-                    </div>
-                    <div class="downloadLinkClass" id="link3">
+                    </a>
+                    <a class="downloadLinkClass" id="link3">
                         <img class="downloadPic" id="linux" src="img/linux.svg" alt="linux">
-                    </div>
-                    <div class="downloadLinkClass" id="link4">
+                    </a>
+                    <a class="downloadLinkClass" id="link4">
                         <img class="downloadPic" id="android" src="img/android.svg" alt="android">
-                    </div>
+                    </a>
                 </div>
             </div>
         </div> 
@@ -52,7 +61,6 @@
     </div>
 
 
-
     <div id="body">
             <div class = "wave wave1"></div>
             <div class = "wave wave2"></div>
@@ -60,19 +68,20 @@
             <div class = "wave wave4"></div>
     
             <div id="CenterZone">
-                <div style="animation:none;" id="leftText">
+                <div id="leftText">
                 <div id="bigTextName">
-                    Scarlet Ring 
+                    SCARLET RING 
                 </div>
                 <div id="smallText">
-                    Стань детективом и <b>раскрой дело</b>
+                    Стань детективом и <b>раскрой преступление</b>
                 </div>
                 <div onclick="download()" id="buttonDownloader">
                     Скачать
                 </div>
                 </div>
-                <div style="animation:none;" id="rightText">
-                <img id="logoBig" src="img/logo.png" alt="logo">
+                <div id="rightText">
+                <img id="logoBig" src="img/big_logo.svg" alt="logo">
+                <img id="logo_bg" src="img/logo_bg.svg" alt="logo">
                 </div>
             </div>
     </section>
@@ -85,6 +94,15 @@
 
 
 <style>
+
+/* @media only screen and (max-device-aspect-ratio: 9/16) {
+        body,
+        html {
+            overflow: hidden;
+            position: fixed;
+            }
+
+    } */
 
 *{
     cursor: url('cursor.png'), pointer;
@@ -118,3 +136,4 @@ function download(){
     document.getElementById('fade').style.display = 'block';
 }
 </script>
+
