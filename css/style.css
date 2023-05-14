@@ -716,7 +716,7 @@ color: #282626;
         flex-direction: column;
     }
     .downloadLinkClass{
-        width: 140%;
+        width: 180%;
         height: 100%;
         display: flex;
         justify-content: center;
