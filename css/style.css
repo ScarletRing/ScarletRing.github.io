@@ -707,7 +707,7 @@ color: #282626;
     #frame{
         transform: rotate3d(0, 0, 1, 90deg);
         width:auto;
-        height:50%;
+        height:70%;
     }
     #whiteSpace{
         /* height:auto; */
