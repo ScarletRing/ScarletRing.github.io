@@ -482,7 +482,7 @@ color: #282626;
 @media only screen and (max-device-aspect-ratio: 9/16) {
 
     .downloadLinkClass{
-        width: 125%;
+        width: 120%;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -744,22 +744,22 @@ color: #282626;
     }
     #link1{
         margin-top:2%;
-        margin-left: 0%;
+        margin-left: -10%;
 
     }
     #link2{
         margin-top:2%;
-        margin-left: 0%;
+        margin-left: -10%;
 
     }
     #link3{
         margin-top:2%;
-        margin-left: 0%;
+        margin-left: -10%;
 
     }
     #link4{
         margin-top:2%;
-        margin-left: 0%;
+        margin-left: -10%;
 
     }
     #bigTextName{
