@@ -707,12 +707,12 @@ color: #282626;
     #frame{
         transform: rotate3d(0, 0, 1, 90deg);
         width:auto;
-        height:70%;
+        height:50%;
     }
     #whiteSpace{
         /* height:auto; */
-        width:100%;
-        top:35%;
+        width:80%;
+        top:0%;
         left:0%;
     }
     #close{
