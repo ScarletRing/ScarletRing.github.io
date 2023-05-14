@@ -480,6 +480,10 @@ color: #282626;
 } */
 /* @media only screen and (min-device-aspect-ratio: 0.1) and (max-device-aspect-ratio: 0.6) { */
 @media only screen and (max-device-aspect-ratio: 9/16) {
+    #minilogo{
+        width:25%;
+
+    }
     /* #abt{ */
         /* margin-left: -10%; */
         /* margin-right: 5%; */
