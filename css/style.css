@@ -796,10 +796,10 @@ color: #282626;
     
 
     .BigText{
-        width: 100%;
-        height: 66px;
+        width: 85%;
+        height: 150px;
         text-align: left;
-        margin-left: 15px;
+        margin-left: 10px;
         font-size: 120px;
         color: #F4AC3F;
         font-family: 'Constantia', sans-serif;
