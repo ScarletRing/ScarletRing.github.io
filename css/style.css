@@ -500,10 +500,10 @@ color: #282626;
     .TextZoneC_mail{
         width: 50%;
         /* height: 100%; */
-        text-align: left;
+        text-align: center;
         font-size: 30px;
         font-family: 'Constantia', sans-serif;
-        margin-left: -30%;
+        /* margin-left: -30%; */
     }
 
 
