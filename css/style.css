@@ -859,3 +859,12 @@ color: #282626;
 
 
 }
+
+@media only screen and (max-device-aspect-ratio: 385/215){
+    .BigTextC{
+
+        margin-left: 130px; 
+    
+    }
+
+}
