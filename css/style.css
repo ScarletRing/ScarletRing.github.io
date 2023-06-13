@@ -23,6 +23,9 @@ p{
     margin-left: 1%;
 
 }
+#Zone1{
+    margin-top: 9%;
+}
 #link4{
     margin-left: 1%;
 }
@@ -544,7 +547,7 @@ color: #282626;
         margin-left: 20%;
     }
     .picRight{
-        margin-top: 5%;
+        margin-top: 7%;
         float:none;
     }
     .picLeft{
