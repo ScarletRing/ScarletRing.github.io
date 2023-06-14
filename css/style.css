@@ -506,7 +506,7 @@ color: #282626;
         text-align: left;
         font-size: 50px;
         font-family: 'Constantia', sans-serif;
-        margin-left: -11%; 
+        /* margin-left: -11%;  */
     }
 
 
@@ -834,7 +834,7 @@ color: #282626;
     
     
     }
-    .BigTextC{
+    /* .BigTextC{
         width: 85%;
         height: 150px;
         text-align: left;
@@ -842,9 +842,9 @@ color: #282626;
         font-size: 120px;
         color: #F4AC3F;
         font-family: 'Constantia', sans-serif;
+     */
     
-    
-    }
+    /* } */
     /* #firstArrow{
         margin-top:-65px;
     }
